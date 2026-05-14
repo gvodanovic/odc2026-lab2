@@ -2,8 +2,8 @@
 .align 3
 .global laberinto 
 .section .data
-    _stack_ptr: .dword _stack_end
-    estado: .dword 0x4e45204f4745554a, 0x21214f5352554320
+estado: .dword 0x4e45204f4745554a, 0x21214f5352554320
+_stack_ptr: .dword _stack_end
 
 // ------------- Modificar para agregar datos constantes --------------
 
